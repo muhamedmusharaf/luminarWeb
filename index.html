@@ -1,46 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <style>
+    .carousel-item {
+      height: 480px;
+    }
+
+    .im {
+      height: 480px;
+    }
+
+    .head1 {
+      top: 30px;
+    }
+
+    .btc {
+      color: rgb(246, 243, 248);
+      background-color: blueviolet;
+      border-radius: 20px;
+    }
+
+    .bor {
+      border: 0px;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: white">
-  <div class="container ps-5">
-    <a class="navbar-brand w-0 " href="#"><img src="./lumiImg/logo (1).png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-secodary" aria-current="page" href="#">HOME</a>
-        </li>
-       
-        <li class="nav-item">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: white">
+    <div class="container ps-5">
+      <a class="navbar-brand w-0 " href="#"><img src="./lumiImg/logo (1).png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-secodary" aria-current="page" href="#">HOME</a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">ABOUT</a>
-        </li> 
-        <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">COURSES</a>
-        </li>
-        <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">OUR PLACEMENTS</a>
-        </li> 
-        <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">GALLERY</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">CONTACT</a>
-        </li>
-       
-      </ul>
-      
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">CONTACT</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide im1">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./lumiImg/backpic.jpg" class="d-block w-100 im" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start fs-6 text-white head1">
+          <h1>Data Science,ML,&AI <br> Big Data-Hadoop & spark <br> Python Data Science</h1>
+          <p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, <br> focused on providing
+            advanced level software training to Students <br> and by helping them to get placed in IT companies.</p>
+          <button class="btn btc"><strong> VIEW COURESE</strong></button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./lumiImg/backpc2.jpeg" class="d-block w-100 im" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start  fs-6 text-white head1">
+          <h1> <strong> Data Science,ML,&AI <br> Big Data-Hadoop & spark <br> Python Data Science</strong></h1>
+          <p>Luminar Technolab is an IT Finishing School located near Infopark - Cochin, <br> focused on providing
+            advanced level software training to Students <br> and by helping them to get placed in IT companies.</p>
+          <button class="btn btc"><strong>VIEW COURESE</strong> </button>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div><br><br><br><br>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-info ms-4 mt-1 " data-bs-toggle="modal" data-bs-target="#exampleModal" style="z-index: 1;">
+    More to Know
+
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade ps-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body">
+          <p class="text-center fs-6"><strong>Getting Training Quote for free</strong></p>
+          <form action="">
+            <input type="text" placeholder="Name" class="form-control mt-3 bor">
+            <hr>
+            <input type="email" placeholder="E-mail" class="form-control mt-3 bor">
+            <hr>
+            <input type="text" placeholder="Phone Number" class="form-control mt-3 bor">
+            <hr>
+            <select name="" id="" class="form-control mt-3 bor">
+              <option value="">select your courses</option>
+
+              <option value="">PYTHON-DJANGO</option>
+              <option value="">MEARN STACK</option>
+              <option value="">SOFTWARE TESTING</option>
+              <option value="">DATA ANALYTICS</option>
+              <option value="">ANDROID DEVELOPER</option>
+              <option value="">BUSINESS ANALYTICS</option>
+            </select>
+            <hr>
+            <input type="text" placeholder="City" class="form-control mt-3 bor">
+            <hr>
+            <input type="text" placeholder="Comments" class="form-control mt-3 bor">
+            <hr>
+
+            <button class="foot">SUBMIT</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
