@@ -1,0 +1,53 @@
+
+    .im {
+      width: 100%;
+      /* height: 480px; */
+    }
+
+    .head1 {
+      top: 30px;
+    }
+
+    .btc {
+      color: rgb(246, 243, 248);
+      background-color: blueviolet;
+      border-radius: 20px;
+    }
+
+    .bor {
+      border: 0px;
+    }
+    .first{
+
+color: blueviolet;
+
+}
+
+.second{
+color: #5e068a99;
+}
+
+.third{
+line-height: 28px;
+margin-bottom: 12px;
+color: black;
+}
+
+.learn{
+
+color: rgb(241, 207, 18);
+background-color: blueviolet;
+border-radius: 20px;
+
+
+}  
+.girlim{
+     width: 100%;
+     margin-top: -45px;
+}
+
+.learn:hover{
+color: blueviolet;
+border: solid blueviolet;
+background-color: white;
+}
